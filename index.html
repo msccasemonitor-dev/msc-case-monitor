@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MSC Case Monitor</title>
+
+  <meta
+    name="description"
+    content="MSC Case Monitor is an independent software project for monitoring USCIS Case Status API information."
+  >
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f7fa;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #102a43;
+      color: white;
+      padding: 20px 30px;
+    }
+
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .hero {
+      padding: 90px 30px;
+      text-align: center;
+      background: white;
+    }
+
+    .hero h1 {
+      margin-bottom: 20px;
+      font-size: 42px;
+      color: #102a43;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: 0 auto 30px;
+      font-size: 18px;
+      color: #52606d;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #102a43;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    .section {
+      padding: 60px 30px;
+    }
+
+    .section h2 {
+      color: #102a43;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 30px;
+      margin-bottom: 25px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    footer {
+      background: #102a43;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    footer a {
+      color: white;
+      margin: 0 10px;
+    }
+
+    .small {
+      font-size: 14px;
+      color: #d9e2ec;
+      margin-top: 15px;
+    }
+
+    @media (max-width: 700px) {
+      header .container {
+        flex-direction: column;
+      }
+
+      nav a {
+        margin: 0 8px;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <div class="logo">MSC Case Monitor</div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>MSC Case Monitor</h1>
+
+    <p>
+      An independent software application designed to monitor and organize
+      case-status information made available through authorized USCIS API
+      services.
+    </p>
+
+    <a class="button" href="#about">Learn More</a>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="container">
+
+    <div class="card">
+      <h2>About MSC Case Monitor</h2>
+
+      <p>
+        MSC Case Monitor is an independently developed software project
+        intended to help users monitor USCIS case-status information and
+        identify changes in information returned through authorized USCIS
+        services.
+      </p>
+
+      <p>
+        The application is operated by
+        <strong>Joel Alvarado, U.S. Sole Proprietor</strong>.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Data and Security</h2>
+
+      <p>
+        MSC Case Monitor is designed to minimize the collection and retention
+        of personal information. Application credentials and authentication
+        information are intended to be stored securely and separately from
+        publicly accessible application code.
+      </p>
+
+      <p>
+        Additional information about data handling, retention, deletion,
+        and user rights is available in our
+        <a href="privacy.html">Privacy Policy</a>.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Independent Service</h2>
+
+      <p>
+        MSC Case Monitor is an independent application and is not affiliated
+        with, endorsed by, or operated by U.S. Citizenship and Immigration
+        Services (USCIS) or the U.S. Department of Homeland Security.
+      </p>
+
+      <p>
+        Official immigration case information should always be confirmed
+        directly through USCIS.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+
+      <p>
+        For general questions, privacy requests, or data deletion requests,
+        contact:
+      </p>
+
+      <p>
+        <strong>
+          <a href="mailto:msccasemonitor@gmail.com">
+            msccasemonitor@gmail.com
+          </a>
+        </strong>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>
+    <a href="privacy.html">Privacy Policy</a>
+    |
+    <a href="terms.html">Terms of Use</a>
+  </p>
+
+  <p>© 2026 MSC Case Monitor</p>
+
+  <p class="small">
+    Operated by Joel Alvarado, U.S. Sole Proprietor.
+  </p>
+
+  <p class="small">
+    Contact:
+    <a href="mailto:msccasemonitor@gmail.com">
+      msccasemonitor@gmail.com
+    </a>
+  </p>
+</footer>
+
+</body>
+</html>
