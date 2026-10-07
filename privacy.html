@@ -89,6 +89,13 @@
       margin: 25px 0;
     }
 
+    .pii-notice {
+      background: #fff8e6;
+      border-left: 4px solid #b7791f;
+      padding: 18px;
+      margin: 25px 0;
+    }
+
     .contact-box {
       background: #f0f4f8;
       padding: 20px;
@@ -145,7 +152,7 @@
 
       <h1>Privacy Policy</h1>
 
-      <p><strong>Effective Date:</strong> October 5, 2026</p>
+      <p><strong>Effective Date:</strong> October 6, 2026</p>
 
       <div class="notice">
         <strong>Operating Entity:</strong>
@@ -161,7 +168,8 @@
 
       <p>
         This Privacy Policy explains how MSC Case Monitor collects,
-        uses, stores, protects, shares, retains, and deletes information.
+        processes, uses, stores, protects, shares, retains, and deletes
+        information.
       </p>
 
       <p>
@@ -177,21 +185,94 @@
       </p>
 
 
-      <h2>2. Information We Collect or Process</h2>
+      <h2>2. USCIS Receipt Numbers and Personally Identifiable Information</h2>
+
+      <div class="pii-notice">
+        <strong>USCIS Receipt Numbers Are Treated as PII.</strong>
+        MSC Case Monitor treats USCIS receipt numbers as
+        <strong>Personally Identifiable Information (PII)</strong>.
+      </div>
 
       <p>
-        MSC Case Monitor follows a data-minimization approach. We process
+        A USCIS receipt number may be collected when a user voluntarily
+        provides the number for case-status monitoring.
+      </p>
+
+      <p>
+        The receipt number is used only for legitimate case-monitoring
+        functionality, including submitting an authorized request to the
+        USCIS Case Status API and retrieving case-status information
+        associated with that receipt number.
+      </p>
+
+      <p>
+        Receipt numbers may also be associated with case-status history
+        so that MSC Case Monitor can detect when USCIS-provided information
+        changes over time.
+      </p>
+
+      <p>
+        MSC Case Monitor does not use USCIS receipt numbers for advertising,
+        marketing, profiling, data brokerage, or sale.
+      </p>
+
+
+      <h2>3. Storage and Protection of USCIS Receipt Numbers</h2>
+
+      <p>
+        USCIS receipt numbers are stored only when reasonably necessary
+        to provide requested monitoring functionality.
+      </p>
+
+      <p>
+        Receipt numbers are maintained in application-controlled storage
+        and are not intentionally stored in the publicly accessible
+        MSC Case Monitor website or public source-code repository.
+      </p>
+
+      <p>
+        Access to stored receipt numbers is restricted to the application
+        and authorized operator access necessary to operate, maintain,
+        secure, or troubleshoot MSC Case Monitor.
+      </p>
+
+      <p>
+        MSC Case Monitor uses reasonable administrative and technical
+        safeguards designed to protect receipt numbers from unauthorized
+        access, use, alteration, disclosure, or loss.
+      </p>
+
+      <p>
+        These safeguards include separating sensitive application data
+        and authentication credentials from publicly accessible website
+        content and source code, restricting access to operational data,
+        and avoiding intentional publication of full receipt numbers in
+        public repositories or public website content.
+      </p>
+
+      <p>
+        Receipt numbers submitted to USCIS for case-status retrieval are
+        transmitted to authorized USCIS API services using secure HTTPS
+        connections.
+      </p>
+
+      <p>
+        Full receipt numbers are not intentionally disclosed to advertisers,
+        marketers, data brokers, or unrelated third parties.
+      </p>
+
+
+      <h2>4. Other Information We Collect or Process</h2>
+
+      <p>
+        MSC Case Monitor follows a data-minimization approach and processes
         only information reasonably necessary to provide case-monitoring
         functionality.
       </p>
 
-      <p>The application may process:</p>
+      <p>In addition to USCIS receipt numbers, the application may process:</p>
 
       <ul>
-        <li>
-          USCIS receipt numbers voluntarily provided for case monitoring.
-        </li>
-
         <li>
           Case-status information returned by authorized USCIS API services.
         </li>
@@ -227,24 +308,43 @@
       </p>
 
 
-      <h2>3. How Information Is Used</h2>
+      <h2>5. How Information Is Used</h2>
 
       <p>Information may be used to:</p>
 
       <ul>
-        <li>Retrieve authorized USCIS case-status information.</li>
+        <li>
+          Query authorized USCIS API services using a user-provided
+          receipt number.
+        </li>
 
-        <li>Detect changes in case-status information over time.</li>
+        <li>
+          Retrieve authorized USCIS case-status information.
+        </li>
 
-        <li>Maintain case-status history when that feature is enabled.</li>
+        <li>
+          Detect changes in case-status information over time.
+        </li>
 
-        <li>Provide monitoring or notifications requested by a user.</li>
+        <li>
+          Maintain case-status history when that feature is enabled.
+        </li>
 
-        <li>Maintain application security and reliability.</li>
+        <li>
+          Provide monitoring or notifications requested by a user.
+        </li>
 
-        <li>Investigate technical errors or service failures.</li>
+        <li>
+          Maintain application security and reliability.
+        </li>
 
-        <li>Respond to user support and privacy requests.</li>
+        <li>
+          Investigate technical errors or service failures.
+        </li>
+
+        <li>
+          Respond to user support and privacy requests.
+        </li>
       </ul>
 
       <p>
@@ -254,10 +354,11 @@
       </p>
 
 
-      <h2>4. Sale of Personal Information</h2>
+      <h2>6. Sale of Personal Information</h2>
 
       <p>
-        MSC Case Monitor does <strong>not sell personal information</strong>.
+        MSC Case Monitor does <strong>not sell personal information</strong>,
+        including USCIS receipt numbers.
       </p>
 
       <p>
@@ -266,7 +367,7 @@
       </p>
 
 
-      <h2>5. Third Parties and Service Providers</h2>
+      <h2>7. Third Parties and Service Providers</h2>
 
       <p>
         MSC Case Monitor does not share personal information with
@@ -275,7 +376,7 @@
 
       <p>
         The public informational website for MSC Case Monitor is currently
-        hosted using GitHub Pages. Case-monitoring receipt numbers and USCIS
+        hosted using GitHub Pages. USCIS receipt numbers and USCIS
         case-status records are not intentionally published to or stored in
         the public GitHub Pages repository.
       </p>
@@ -299,7 +400,7 @@
       </p>
 
 
-      <h2>6. Third-Party Use and Active Consent</h2>
+      <h2>8. Third-Party Use and Active Consent</h2>
 
       <p>
         A third party may not independently use or disclose personal
@@ -320,7 +421,7 @@
       </p>
 
 
-      <h2>7. De-Identified, Anonymized, and Aggregated Information</h2>
+      <h2>9. De-Identified, Anonymized, and Aggregated Information</h2>
 
       <p>
         MSC Case Monitor may use aggregated, anonymized, pseudonymized,
@@ -339,7 +440,7 @@
       </p>
 
 
-      <h2>8. Data-Sharing Choices</h2>
+      <h2>10. Data-Sharing Choices</h2>
 
       <p>
         Users control whether they provide a USCIS receipt number or other
@@ -365,7 +466,7 @@
       </p>
 
 
-      <h2>9. Impact of Sharing Information About Others</h2>
+      <h2>11. Impact of Sharing Information About Others</h2>
 
       <p>
         Information concerning another person may affect that person's
@@ -380,7 +481,7 @@
       </p>
 
 
-      <h2>10. Data Security</h2>
+      <h2>12. General Data Security</h2>
 
       <p>
         Reasonable administrative and technical safeguards are used to
@@ -406,7 +507,7 @@
       </p>
 
 
-      <h2>11. Data Retention</h2>
+      <h2>13. Data Retention</h2>
 
       <p>
         Information is retained only for as long as reasonably necessary
@@ -416,16 +517,16 @@
       </p>
 
       <p>
-        Case-monitoring information may be retained while monitoring for
-        that case remains active.
+        USCIS receipt numbers and associated case-monitoring information
+        may be retained while monitoring for that case remains active.
       </p>
 
       <p>
         If no monitoring activity occurs for
-        <strong>12 consecutive months</strong>, associated case-monitoring
-        information will be deleted or de-identified within
-        <strong>30 days</strong> after that inactivity period, unless a
-        longer period is required by law or reasonably necessary for
+        <strong>12 consecutive months</strong>, associated receipt numbers
+        and case-monitoring information will be deleted or de-identified
+        within <strong>30 days</strong> after that inactivity period, unless
+        a longer period is required by law or reasonably necessary for
         security, fraud prevention, or an unresolved legal matter.
       </p>
 
@@ -435,11 +536,12 @@
       </p>
 
 
-      <h2>12. Permanent Data Deletion</h2>
+      <h2>14. Permanent Data Deletion</h2>
 
       <p>
-        Users may request permanent deletion of personal information
-        associated with MSC Case Monitor at any time.
+        Users may request permanent deletion of personal information,
+        including stored USCIS receipt numbers, associated with
+        MSC Case Monitor at any time.
       </p>
 
       <p>
@@ -467,7 +569,7 @@
       </p>
 
 
-      <h2>13. Closing or Discontinuing Use</h2>
+      <h2>15. Closing or Discontinuing Use</h2>
 
       <p>
         A user may stop using MSC Case Monitor at any time.
@@ -482,7 +584,7 @@
       </p>
 
 
-      <h2>14. Data Breach Notification</h2>
+      <h2>16. Data Breach Notification</h2>
 
       <p>
         If MSC Case Monitor becomes aware of a security incident involving
@@ -497,7 +599,7 @@
       </p>
 
 
-      <h2>15. California Privacy Rights</h2>
+      <h2>17. California Privacy Rights</h2>
 
       <p>
         To the extent the California Consumer Privacy Act (CCPA), as amended,
@@ -518,7 +620,7 @@
       </p>
 
 
-      <h2>16. Transfer of Ownership</h2>
+      <h2>18. Transfer of Ownership</h2>
 
       <p>
         If MSC Case Monitor is transferred to another owner or operating
@@ -552,7 +654,7 @@
       </p>
 
 
-      <h2>17. Changes to This Privacy Policy</h2>
+      <h2>19. Changes to This Privacy Policy</h2>
 
       <p>
         This Privacy Policy may be updated when application functionality,
@@ -585,7 +687,7 @@
       </p>
 
 
-      <h2>18. Immigration and Legal Disclaimer</h2>
+      <h2>20. Immigration and Legal Disclaimer</h2>
 
       <p>
         MSC Case Monitor provides software-based case-status monitoring
@@ -604,7 +706,7 @@
       </p>
 
 
-      <h2>19. Contact and Responsible Entity</h2>
+      <h2>21. Contact and Responsible Entity</h2>
 
       <p>
         The legally responsible operating entity for MSC Case Monitor is:
